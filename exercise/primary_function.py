@@ -12,6 +12,7 @@ def film_etl(film_csv, filename):
         new_list = []
 
         for row in contents:
+
             new_list.append([row[0], row[1], row[4], row[6], row[7]])
 
 
